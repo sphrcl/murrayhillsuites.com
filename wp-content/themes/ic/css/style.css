@@ -655,7 +655,7 @@ img.scaleimg {
 	input[type="password"]:focus,
 	input[type="email"]:focus,
 	textarea:focus {
-		border-bottom: 1px solid #a8a8a8;
+		/*border-bottom: 1px solid #a8a8a8;*/
 	}
 	
 	input.error {
