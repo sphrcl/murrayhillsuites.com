@@ -21,7 +21,7 @@
 
 	    // Hidden calendar
 
-	    $("#primary-nav .button.input-append.date").hover(function() {
+	    $(".calerer").hover(function() {
 					
 			$(".ressys").addClass("dropit");
 			$(this).removeClass("fixeer");

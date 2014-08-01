@@ -43,15 +43,21 @@
 		</ul>
 	</div>
 
-		<div class="searchbox">
+</div>
+
+<div class="booking-form">
+	
+	<div class="searchbox">
 		<div class="container">
-			<form action="#" method="get">
-				<li class="calerer"><input type="text" placeholder="Arrival" id="arrival_date"><span class="icon-calendar" aria-hidden="true">
+			<form action="https://murrayhillsuites.reztrip.com/search?" method="get">
+				<li class="calerer">
+				<input type="text"  id="arrival_date" name="arrival_date" placeholder="<?php _e('Arrival','cebolang'); ?>" class="calendarsection" />
 				<input type="hidden" name="arrive" id="arv" value="">
-				</span></li>
-				<li class="calerer"><input type="text" placeholder="Departure" id="departure_date"><span class="icon-calendar" aria-hidden="true">
+				<span class="icon-calendar" aria-hidden="true" > </span></li>
+				<li class="calerer">
+				<input type="text"  id="departure_date" name="departure_date" placeholder="<?php _e('Departure','cebolang'); ?>" class="calendarsection" />
 				<input type="hidden" name="depart" id="dep" value="">
-				</span></li>
+				<span class="icon-calendar" aria-hidden="true"></span></li>
 				<li class="select"><select name="adult">
 					<option value="1" selected="selected">1 Adult</option>
 					<option value="2">2 Adults</option>
@@ -70,7 +76,20 @@
 				<li class="last"><input type="submit" value="See Our Availability" class="button"></li>
 				
 				<div class="clear"></div>
+
+				<div class="ressys">
+				
+					<div class="calendars">
+							
+						 <div class="datepicker"></div>
+						
+					</div>
+					
+				</div>
+
 			</form>
+
 		</div>
 	</div>
+
 </div>

@@ -531,7 +531,9 @@ color: #333;
 
 /* 4s */
 
-.tribe-mini-calendar-nav span {
+.tribe-mini-calendar-nav span,
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
 	transition: all 0.4s;
     -moz-transition: all 0.4s;
     -webkit-transition: all 0.4s;
@@ -633,8 +635,8 @@ color: #333;
 	z-index: 999;
 	background: #fff;
 	width: 600px;
-	min-height: 335px;
-	right: 0; 
+	min-height: 295px;
+	left: 5px;
 	top: 52px;
 	border-left: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
@@ -663,15 +665,15 @@ color: #333;
 }
 
 .dropit {
-	opacity: 1;
-	visibility: visible;
-	top: 62px;
+    opacity: 1;
+    top: 64px;
+    visibility: visible;
 }
 
 .ressys:hover {
 	opacity: 1 !important;
 	visibility: visible  !important;
-	top: 62px;
+	top: 64px;
 }
 .sticky #navigation .ressys {
 	top: 34px;
@@ -1949,8 +1951,13 @@ button.ui-button::-moz-focus-inner {
 	width: 1.8em;
 	height: 1.8em;
 	background:transparent;
-	opacity: 1 !important;
+	/*opacity: 1 !important;*/
+	cursor: pointer;
 }
+	.ui-datepicker-prev:hover,
+	.ui-datepicker-next:hover {
+		opacity: .5;
+	}
 
 .ui-datepicker .ui-datepicker-prev:before {
 	display: inline-block;
@@ -2525,7 +2532,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-focus,
 .ui-widget-header .ui-state-focus {
 	border: none;
-	background: #A3A3A3 url(images/ui-bg_highlight-hard_100_f6f6f6_1x100.png) 50% 50% repeat-x;
+	background: transparent url(images/ui-bg_highlight-hard_100_f6f6f6_1x100.png) 50% 50% repeat-x;
 	font-weight: bold;
 	color: #fff;
 }
@@ -2989,9 +2996,9 @@ body .ui-tooltip {
 }
 
 .dp-highlight .ui-state-default {
-          /* background: #A3A3A3 !important; */
-          color: #FFF;
-        }
+    background: none repeat scroll 0 0 #2d3b55;
+    color: #fff;
+}
         .ui-datepicker.ui-datepicker-multi  {
           width: 100% !important;
         }
@@ -3005,7 +3012,10 @@ body .ui-tooltip {
         }
 .ui-widget { font-size: 100% }
 
-
+.ui-datepicker-calendar td a.ui-state-hover {
+	background: #ddd;
+	color: #666;
+}
 
 
 

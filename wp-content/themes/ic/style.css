@@ -258,7 +258,7 @@ img.right, img.alignright {float: right;margin: 0 0 7px 15px;}
 	height: 103%;
 	width: 50%;
 	top:0px;
-	right: -4px;
+	right: -1px;
 	content: '';
 	font-size: 10px;
 	z-index: 0;
@@ -273,6 +273,13 @@ img.right, img.alignright {float: right;margin: 0 0 7px 15px;}
 	font-family: Helvetica;
 	font-weight: lighter;
 }
+
+/*.ui-datepicker-prev.ui-corner-all.ui-datepicker-prev-hover.ui-state-hover, .ui-datepicker-next.ui-corner-all.ui-datepicker-next-hover.ui-state-hover {
+    background: transparent;
+}*/
+
+
+
 /*--------------------------------------------------------
 	v.--MAP
 --------------------------------------------------------*/	
@@ -1550,11 +1557,11 @@ h1, h2, h3, h4, h5, h6, h7 {
 }
 
 .sticky #navigation .dropit {
-	top: 67px;
+	top: 64px;
 }
 
 .sticky #navigation .ressys:hover {
-	top: 67px;
+	top: 64px;
 }
 
 .formfields {
@@ -2608,7 +2615,7 @@ button.ui-button::-moz-focus-inner {
 	width: 1.8em;
 	height: 1.8em;
 	background:transparent;
-	opacity: 1 !important;
+	/*opacity: 1 !important;*/
 }
 
 .ui-datepicker .ui-datepicker-prev:before {
@@ -3924,6 +3931,14 @@ footer {
 
 /* ======================================================== SEARCHBOX =========================================== */
 
+
+.booking-form {
+    position: relative;
+}
+
+.searchbox form {
+    position: relative;
+}
 
 .my-wrapper {
   max-height: 75px
