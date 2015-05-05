@@ -2,10 +2,7 @@
 /* ================================================  MAX WIDTH 1280 ======================================= */
 
 
-@media only screen 
-and (max-width : 1280px) {
-
-
+@media only screen and (max-width : 1280px) {
 
 	/* Navigation */
 
@@ -13,18 +10,12 @@ and (max-width : 1280px) {
 	    width: 1040px;
 	}
 
-	
 }
-
-
 
 /* ================================================  MAX WIDTH 1439 ======================================= */
 
 
-@media only screen 
-and (max-width : 1439px) {	
-
-
+@media only screen and (max-width : 1439px) {	
 
 	/* Navigation */
 
@@ -40,19 +31,12 @@ and (max-width : 1439px) {
 	    font-size: 14px;
 	}
 
-
-
 }
-
-
 
 /* ================================================  MAX WIDTH 1300 ======================================= */
 
 
-@media only screen 
-and (max-width : 1300px) {
-
-
+@media only screen and (max-width : 1300px) {
 
 	/* Navigation */
 
@@ -64,26 +48,18 @@ and (max-width : 1300px) {
 	    font-size: 12px;
 	}
 
-
-
 }
-
 
 /* ================================================  MAX WIDTH 1099 ======================================= */
 
 
-@media only screen 
-and (max-width : 1099px) {	
-
-
+@media only screen and (max-width : 1099px) {	
 
 	/* General settings */
 
 	.container, #tribe-events-pg-template {
 		width: 95%;
 	}
-
-
 
 	/* Navigation */
 
@@ -106,8 +82,6 @@ and (max-width : 1099px) {
 	    font-size: 53px;
 	}
 
-
-
 	/* Navigation */	
 
 	#primary-nav .container {
@@ -116,7 +90,7 @@ and (max-width : 1099px) {
 
 	#primary-nav nav {
 	    margin: 13px 0;
-	    width: 100%;
+	    width: 120%;
 	}
 
 	#primary-nav .button, #navigation-sticky-wrapper.sticky #primary-nav .button {
@@ -141,7 +115,6 @@ and (max-width : 1099px) {
 	.dropit, .ressys:hover {
 	    top: 82px;
 	}
-
 	
 	/* Welcome */
 	
@@ -158,8 +131,6 @@ and (max-width : 1099px) {
 	.home #toggles {
 	    top: 475px;
 	}
-
-
 
 	/* Thumbgal & Imagegal */
 
@@ -195,15 +166,11 @@ and (max-width : 1099px) {
 	    width: 70px;
 	}
 
-
-
 	/* Welcome H1 */
 
 	.welcometext h1 {
 		font-size: 33px;
 	}
-
-
 
 	/* Section Header */
 
@@ -220,26 +187,23 @@ and (max-width : 1099px) {
 	.section-header h2.section-title {
 	    font-size: 31px;
 	    padding: 18px 0;
-	    width: 535px;
+	    width: 100%;
 	}
 
 	.section-header .fr {
 	    padding: 26px 0;
 	}
 
-
 	.section-header .fl {
 	    max-width: 90%;
 	}
 
-
-
 	/* Quote Rotator */
 
 	.ico-quote {
-		    background-size: contain;
-		    height: 37px;
-		    width: 65px;
+	    background-size: contain;
+	    height: 37px;
+	    width: 65px;
 	}
 
 	.cbp-qtrotator {
@@ -249,8 +213,6 @@ and (max-width : 1099px) {
 	.cbp-qtrotator blockquote footer {
 		font-size: 19px;
 	}
-
-
 
 	/* Post slider */
 
@@ -282,12 +244,15 @@ and (max-width : 1099px) {
 	    margin: 17px 0 0;
 	}
 
-
-
 	/* Post */
 
 	.post-content.fl {
-	    width: 54%;
+	    width: 91%;
+	}
+
+	.sidebar.fr {
+	    padding: 3px 5px;
+	    width: 99%;
 	}
 
 	footer nav ul.footling li a {
@@ -295,7 +260,8 @@ and (max-width : 1099px) {
 	}
 
 	.socialize {
-		font-size: 13px;
+		font-size: 12px;
+		margin-top: 5px;
 	}
 
 	/* Footer Signup */
@@ -304,15 +270,11 @@ and (max-width : 1099px) {
 	    width: 59% !important;
 	}
 
-
-
 	/* Room list */
 
 	.room-box .fr {
 	    padding: 3% 3.7% 0;
 	}
-
-
 
 	/* Rooms - single */
 	
@@ -346,8 +308,6 @@ and (max-width : 1099px) {
 		display: inline;
 	}
 
-
-
 	/* Page - Guide */
 
 	.tab-featured {
@@ -372,8 +332,6 @@ and (max-width : 1099px) {
 		padding-bottom: 0;
 	}
 
-
-
 	/* Gallery */
 
 	.post-content .imagegal ul li {
@@ -381,18 +339,16 @@ and (max-width : 1099px) {
 	    width: 23.6%;
 	}
 
-	
+	.card {
+		height: 100%;
+		margin:0;
+	}
 
 }
 
-
-
 /* ================================================  MAX WIDTH 1024 ======================================= */
 
-@media only screen 
-and (max-width : 1024px) {
-
-
+@media only screen and (max-width : 1024px) {
 
 	.sticky .logo {
 	    padding: 15px 0;
@@ -402,18 +358,11 @@ and (max-width : 1024px) {
 		padding: 2px 14px 18px 10px;
 	}
 
-
-
 }
-
-
 
 /* ================================================  MAX WIDTH 1023 ======================================= */
 
-@media only screen 
-and (max-width : 1023px) {
-
-
+@media only screen and (max-width : 1023px) {
 
 	#maparea, #toggles {
 		display: none !important;
@@ -425,20 +374,11 @@ and (max-width : 1023px) {
 	    margin: auto !important;
 	}
 
-
-
 }
-
-
 
 /* ================================================  MAX WIDTH 940 ======================================= */
 
-
-@media only screen 
-and (max-width : 940px) 
-{
-
-
+@media only screen and (max-width : 940px) {
 
 	/* Navigation */
 
@@ -454,15 +394,11 @@ and (max-width : 940px)
 		display: none;
 	}
 
-
-
 	/* Section header */
 
 	.section-header .social-buttons li:last-child {
 	    margin-right: 0;
 	}
-
-
 
 	/* Section photos */
 
@@ -475,8 +411,6 @@ and (max-width : 940px)
         margin-left: 50%;
 	    margin-top: 10%;
 	}
-
-
 
 	/* Post slider */
 
@@ -496,8 +430,6 @@ and (max-width : 940px)
 	    bottom: -104px;
 	}
 
-
-
 	/* Post */
 
 	.post-content.fl {
@@ -505,14 +437,13 @@ and (max-width : 940px)
 	}
 
 	.card {
-		width: 645px;
+		/**width: 645px;**/
 		height: 100%;
 	}
 
-.last {
-	width: 26% !important;
-}
-
+	.last {
+		width: 25% !important;
+	}
 
 	/* Room list */
 
@@ -572,8 +503,6 @@ and (max-width : 940px)
 	    padding: 11px 15px;
 	}
 
-
-
 	/* Page - Specials */
 
 	.post-content .imagegal ul li:nth-child(3n) {
@@ -593,15 +522,11 @@ and (max-width : 940px)
 	    margin-right: 7px;
 	}
 
-
-
 	/* Rooms - Single */
 
 	.iosSlider {
 	    height: 274px !important;
 	}
-
-
 
 	/* Page - Guide */
 
@@ -631,8 +556,6 @@ and (max-width : 940px)
 	    margin-right: auto;
 	}
 
-
-
 	/* Page - Contact */
 
 	#wpcf7-f538-p91-o1 {
@@ -651,8 +574,6 @@ and (max-width : 940px)
 	    width: 110%;
 	}
 
-
-
 	/* Page - Press */
 
 
@@ -669,15 +590,11 @@ and (max-width : 940px)
 	    column-gap: 8px;
 	}
 
-
-
 	/* Footer */
 
 	.mm-opened footer {
 		display: none;
 	}
-
-
 
 	/* Prettyphoto */
 
@@ -685,26 +602,15 @@ and (max-width : 940px)
 		display: none;
 	}
 
-
-
-
 }
-
 
 /* ================================================  MAX WIDTH 939 ======================================= */
 
-@media only screen 
-and (max-width : 939px) {
-	
-	
-	
-	
-	
-		#footer-newsletter {
+@media only screen and (max-width : 939px) {
+
+	#footer-newsletter {
 		display: none;
 	}
-	
-
 	
 	.mmenu-icon {
 		display: block;
@@ -735,8 +641,9 @@ and (max-width : 939px) {
 		border: none;
 	}
 	#primary-nav {
-min-height: 50px;
-}
+		min-height: 50px;
+	}
+
 	.logo.mobile > img {
 	    height: 100%;
 	}
@@ -754,10 +661,10 @@ min-height: 50px;
 
 	#primary-nav .button, #navigation-sticky-wrapper.sticky #primary-nav .button {
 	    font-size: 16px;
-left: 0;
-padding: 16px 40px;
-height: 15px;
-line-height: 16px;
+		left: 0;
+		padding: 16px 40px;
+		height: 15px;
+		line-height: 16px;
 	}
 
 	#primary-nav span.navdrop, #primary-nav span.navdrop ul {
@@ -774,7 +681,6 @@ line-height: 16px;
 	}
 
 
-
 	/* MMENU */
 
 	#primary-nav .container {
@@ -788,7 +694,6 @@ line-height: 16px;
 	    padding: 6px;
 	    font-size: 34px;
 	}
-
 
 
 	/* Home - Specials */
@@ -817,7 +722,6 @@ line-height: 16px;
 	}
 
 
-
 	/* Footer - Newsletter */
 
 	#footer-newsletter .container > p {
@@ -835,7 +739,6 @@ line-height: 16px;
 	.newsletter-form input[type="text"] {
 	    width: 54%;
 	}
-
 
 
 	/* Footer - Navigation */
@@ -884,47 +787,42 @@ line-height: 16px;
 	}
 
 	.socialize {
-		font-size: 14px;
+		font-size: 13px;
+		text-align: center;
+	}
+	.footer-info > li {
+   		float: none;
+   		padding-bottom:5px;
+}
+
+
+}
+
+@media only screen and (min-width : 640px) and (max-width : 720px) {	
+
+	#home-slider {
+		height: 350px;
 	}
 
-	
+	.home .flexslider .slides img {
+		width: 150%;
+	}
 
-}
-
-
-
-
-
-
-
-
-@media only screen 
-and (min-width : 640px) 
-and (max-width : 720px) 
-{	
-
-
-		#home-slider {
-height: 350px;
-}
-
-.home .flexslider .slides img {
-	width: 150%;
+	.flex-control-nav {
+    	position: sticky;
 	}
 
 }
 /* ================================================  MAX WIDTH 640 ======================================= */
 
 
-@media only screen 
-and (max-width : 640px) 
-{	
+@media only screen and (max-width : 640px) {	
 
-		.specialsbox {
+	.specialsbox {
 		display: none;
 	}
 	
-		#footer-newsletter {
+	#footer-newsletter {
 		display: none;
 	}
 	
@@ -942,8 +840,6 @@ and (max-width : 640px)
 	    width: 100%;
 	}
 
-
-
 	/* Navigation */
 
 	.dropit, .ressys:hover {
@@ -954,8 +850,6 @@ and (max-width : 640px)
 	    padding: 3px 12.1px;
 	}
 
-
-
 	/* Home Slider */
 
 	#home-slider {
@@ -964,7 +858,7 @@ and (max-width : 640px)
 	}
 
 	.flex-control-nav {
-	    bottom: 360px;
+	   /** bottom: 360px;**/
 	    display: block;
 	    z-index: 99;
 	}
@@ -988,8 +882,6 @@ and (max-width : 640px)
 	#home-slider h3 {
 	    font-size: 22px;
 	}
-
-
 
 	/* Intro */
 
@@ -1024,6 +916,10 @@ and (max-width : 640px)
 	    width: 100%;
 	}
 
+	.slicer {
+		width:55%;
+	}
+
 	.section-header {
 	    margin-bottom: 10px;
 	}
@@ -1047,8 +943,6 @@ and (max-width : 640px)
 	.social-buttons li:last-child {
 	    margin-right: 0;
 	}
-
-
 
 	/* Section photos */
 
@@ -1097,8 +991,6 @@ and (max-width : 640px)
 	    font-size: 25px;
 	}
 
-
-
 	/* Post slider */
 
 	.neighborhood-sliders {
@@ -1109,8 +1001,6 @@ and (max-width : 640px)
 	.slidesjs-slide div span {
 	    font-size: 19px;
 	}
-
-
 
 	/* Quote */
 
@@ -1147,15 +1037,11 @@ and (max-width : 640px)
 		min-height: 0;
 	}
 
-
-
 	/* Post */
 
 	.post-content.fl > p {
 	    margin-bottom: 25px;
 	}
-
-
 
 	/* Room - single */
 
@@ -1203,8 +1089,6 @@ and (max-width : 640px)
 	    width: 100%;
 	}
 
-
-
 	/* Footer - Nav */
 
 	footer nav .fr {
@@ -1217,8 +1101,6 @@ and (max-width : 640px)
 		padding-bottom: 20px;
 	}	
 
-
-
 	/* Page with sidebar */
 
 	.post-content.fl {
@@ -1228,8 +1110,6 @@ and (max-width : 640px)
 	    padding: 50px 20px;
 	    width: 85.8%;
 	}
-
-
 
 	/* Sidebar */
 
@@ -1241,7 +1121,7 @@ and (max-width : 640px)
 	    margin-left: auto;
 	    margin-right: auto;
 	    padding: 20px 0 0;
-	    width: 260px;
+	    /**width: 260px;**/
 	}
 
 	.searchbox {
@@ -1250,20 +1130,16 @@ and (max-width : 640px)
 
 }
 
-
-
 /* ================================================  MOBILES BELOW 639 ======================================= */
 
-@media only screen 
-and (max-width : 639px) 
-{
+@media only screen and (max-width : 639px) {
 
-`	.specialsbox {
+	.specialsbox {
 		display: none;
 	}
 	ul.tabs li a {
-padding: 8px 12px;
-}
+		padding: 8px 12px;
+	}
 	#primary-nav .button {
 		display: none;
 	}
@@ -1273,29 +1149,30 @@ padding: 8px 12px;
 	}
 	
 	
-		#footer-newsletter {
+	#footer-newsletter {
 		display: none;
 	}
 	
 	.slide-header .button {
-    display: none;
-}
+    	display: none;
+	}
 
-.home .flexslider .slides img {
+	.home .flexslider .slides img {
 		width: 180%;
 	}
 
-.flexslider .slides > li {
-	height: 255px;
-}
+	.flexslider .slides > li {
+		height: 255px;
+	}
 
-.slide-header {
-	top: 1%;
-}
+	.slide-header {
+		top: 1%;
+	}
 
-.sidebar.fr {
-	padding: 0px;
-}
+	.sidebar.fr {
+   	 	padding: 10px 5px;
+    	width: 96%;
+	}
 
 }
 
@@ -1304,13 +1181,11 @@ padding: 8px 12px;
 /* ================================================  MOBILES BELOW 480 ======================================= */
 
 
-@media only screen 
-and (max-width : 480px) 
-{	
+@media only screen and (max-width : 480px) {	
 
 	#home-slider {
-height: 250px;
-}
+		height: 250px;
+	}
 
 
 		.specialsbox {
@@ -1319,8 +1194,8 @@ height: 250px;
 	
 	
 	ul.tabs li a {
-padding: 8px 12px;
-}
+		padding: 8px 12px;
+	}
 		#footer-newsletter {
 		display: none;
 	}
@@ -1369,7 +1244,7 @@ padding: 8px 12px;
 	}
 
 	.card {
-		width: 295px;
+		/**width: 295px;**/
 	}
 
 	/* Room list */
@@ -1506,8 +1381,8 @@ padding: 8px 12px;
 	/* reserve button on banner */
 
 	.slide-header .button {
-    display: none;
-}
+    	display: none;
+	}
 
 }
 
@@ -1515,11 +1390,7 @@ padding: 8px 12px;
 /* ================================================  MAX HEIGHT 480 ======================================= */
 
 
-@media only screen 
-and (max-height : 480px) 
-{
-
-
+@media only screen and (max-height : 480px) {
 
 	/* Page - Guide */
 
@@ -1551,8 +1422,8 @@ and (max-height : 480px)
 
 
 	.slide-header .button {
-    display: none;
-}
+    	display: none;
+	}
 
 }
 
@@ -1562,20 +1433,17 @@ and (max-height : 480px)
 /* ================================================  MOBILES BELOW 399 ======================================= */
 
 
-@media only screen 
-and (max-width : 399px) 
-{	
+@media only screen and (max-width : 399px) {	
 	
 	
-		.specialsbox {
+	.specialsbox {
 		display: none;
 	}
 	#property-nav nav ul li a.clicknav-clicker, #navigation-sticky-wrapper.sticky #property-nav nav ul li a.clicknav-clicker {
-
 	    background-size: 70%;
-font-size: 11px;
-letter-spacing: 3px;
-padding: 11px 5px;
+		font-size: 11px;
+		letter-spacing: 3px;
+		padding: 11px 5px;
 	}
 	ul.tabs {
 		width: inherit;
@@ -1771,7 +1639,7 @@ padding: 11px 5px;
 	    margin-left: -27px;
 	    margin-right: 10px;
 	}
-		#footer-newsletter {
+	#footer-newsletter {
 		display: none;
 	}
 
@@ -1779,8 +1647,8 @@ padding: 11px 5px;
 
 
 	.slide-header .button {
-    display: none;
-}
+    	display: none;
+	}
 
 }
 
@@ -1789,9 +1657,7 @@ padding: 11px 5px;
 /* ================================================  MOBILES BELOW 320 ======================================= */
 
 
-@media only screen 
-and (max-width : 320px) 
-{	
+@media only screen and (max-width : 320px) {	
 	
 	.specialsbox {
 		display: none;
@@ -1821,15 +1687,15 @@ and (max-width : 320px)
 	}
 
 	.upcoming-calendar .tribe-mini-calendar-no-event {
-	 padding: 11px 0;
-}
+		padding: 11px 0;
+	}
 
 	/* reserve button on banner */
 
 
 	.slide-header .button {
-    display: none;
-}
+   		display: none;
+	}
 
 }
 
@@ -1839,24 +1705,15 @@ and (max-width : 320px)
 /* ================================================  MOBILES BELOW 480 to 400 ======================================= */
 
 
-@media only screen 
-and (min-width : 400px) 
-and (max-width : 479px) 
-{	
-
-
+@media only screen and (min-width : 400px) and (max-width : 479px) {	
 	/* reserve button on banner */
-
-
 	.slide-header .button {
-    display: none;
-}
+    	display: none;
+	}
 
-.upcoming-calendar .tribe-mini-calendar-no-event {
-	 padding: 13px 0;
-}
-
-
+	.upcoming-calendar .tribe-mini-calendar-no-event {
+		 padding: 13px 0;
+	}
 
 }
 
@@ -1865,25 +1722,16 @@ and (max-width : 479px)
 /* ================================================  MOBILES BELOW 480 to 640 ======================================= */
 
 
-@media only screen 
-and (min-width : 480px) 
-and (max-width : 639px) 
-{	
-
-
+@media only screen and (min-width : 480px) and (max-width : 639px) {	
 	/* reserve button on banner */
 
-
 	.slide-header .button {
-    display: none;
-}
+	    display: none;
+	}
 
-.upcoming-calendar .tribe-mini-calendar-no-event {
-	 padding: 13px 0;
-}
-
-
-
+	.upcoming-calendar .tribe-mini-calendar-no-event {
+		 padding: 13px 0;
+	}
 				
 }
 
@@ -1938,16 +1786,9 @@ and (max-width : 960px)
 
 @media only screen 
 and (min-width : 961px) 
-and (max-width : 1099px) 
-{	
-
-
-
-
-
-		
+and (max-width : 1099px) {	
+	
 }
-
 
 /* ================================================  FIRST STAGE LARGER THAN 1024PX UP TO LARGER BROWSERS  ======================================= */
 
@@ -1955,14 +1796,7 @@ and (max-width : 1099px)
 
 @media only screen 
 and (min-width : 1100px) 
-and (max-width : 1223px) 
-{		
-		
-	
-
-	
-	
-	
+and (max-width : 1223px) {				
 	
 }
 
@@ -1977,58 +1811,28 @@ and (max-width : 1223px)
 
 @media only screen 
 and (min-width : 1224px) 
-and (max-width : 1300px) 
-{
-
-
-
-
-
-
+and (max-width : 1300px) {
 
 
 }
 	
-
 @media only screen 
 and (min-width : 1224px) 
-and (max-width : 1399px) 
-{
-
-	
-	
-	
-	
-	
-	
+and (max-width : 1399px) {
+		
                 
 }
-	
-	
-	
 
-
-@media only screen and (min-width: 1400px) and (max-width: 1450px) {
+@media only screen 
+and (min-width: 1400px) 
+and (max-width: 1450px) {
 		
-		
-
-
-
-
-
 
 }
 
-
-@media only screen and (min-width: 1451px) {
+@media only screen 
+and (min-width: 1451px) {
  
- 
- 
- 
- 
-                
-
-
 
 } 
 
@@ -2037,5 +1841,3 @@ and (max-width : 1399px)
   	display: none;
   }
 }
-
-

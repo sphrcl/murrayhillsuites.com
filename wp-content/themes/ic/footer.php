@@ -50,20 +50,27 @@
 
 			<?php if(get_option('cebo_address')) { ?>
 				<?php } ?>
+<ul class="footer-info" align="center">
 
+	<li>
 					<?php if(get_option('cebo_address')) { ?>
 				<i class="fa fa-map-marker fa-lg"></i><?php echo get_option('cebo_address'); ?>
 					<?php } ?>
 				
-
+	</li>
+	<li>
 					<?php if(get_option('cebo_tele')) { ?>
 				<i class="fa fa-mobile-phone fa-lg"></i><?php echo get_option('cebo_tele'); ?> <?php if(get_option('cebo_fax')) { ?>| Fax: <?php echo get_option('cebo_fax'); ?><?php } ?>
 					<?php } ?>
 				
-
+	</li>
+	<li>
 					<?php if(get_option('cebo_email')) { ?>
 				<i class="fa fa-envelope fa-lg"> </i><a href="mailto:<?php echo get_option('cebo_email'); ?>"><?php echo get_option('cebo_email'); ?></a>
 					<?php } ?>
+	</li>
+
+</ul>
 
 			</div>
 				

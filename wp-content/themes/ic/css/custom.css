@@ -567,7 +567,7 @@ color: #333;
     font-weight: bold;
     height: auto;
     margin: 23px 20px 23px 0;
-    width: 100%;
+    width: 102%;
 }
 
 #primary-nav nav ul {
@@ -3639,8 +3639,8 @@ ul.tabs li:last-child {
 /* Post Sidebar */
 
 #page-content .sidebar.fr {
-    padding: 5px 0;
-    width: 340px;
+   /** padding: 5px 0;
+    width: 340px;**/
 }
 
 #page-content .sidebar.fr li {
@@ -3965,13 +3965,13 @@ position: relative !important;
     display: none;
 }
 .slicer {
-background-repeat: no-repeat;
-background-position: center top;
-width: 100%;
-min-height: 550px;
-background-size: 100%;
-max-width: 550px;
-margin: auto;
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 50%;
+	min-height: 550px;
+	background-size: 100%;
+	max-width: 550px;
+	margin: auto;
 }
 
 #mc_embed_signup label {
@@ -4024,15 +4024,13 @@ padding: 0 !important;
   margin: 10 auto;
 }
 
-
 .card {
-  height: 260px;
-  width: 295px;
-  background-color: lightgrey;
- margin: 50px auto 0;
-  position: relative;
-  text-align: center;
-  border-radius: 5px;
+    border-radius: 5px;
+    height: 260px;
+    margin: 35px auto 0;
+    /**padding: 0 15px;**/
+    position: relative;
+    text-align: center;
 }
 
 .extended-nav {
@@ -4098,7 +4096,8 @@ a:hover li {
 }
 
 .sidebar.fr {
-    padding: 3px 20px;
+    /**padding: 3px 20px;**/
+    width: 30%;
 }
 
 .from-price h6 {
@@ -4162,3 +4161,6 @@ font-family: 'EB Garamond', serif;
 	width: 48%;
 }
 
+.footer-info > li {
+	float:left;
+}
