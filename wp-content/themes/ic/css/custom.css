@@ -4024,6 +4024,7 @@ padding: 0 !important;
   margin: 10 auto;
 }
 
+.card h4 { display: none; }
 .card {
     border-radius: 5px;
     height: 260px;

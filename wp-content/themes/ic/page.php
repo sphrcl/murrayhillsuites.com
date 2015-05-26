@@ -215,19 +215,15 @@
 
 			<div class="sidebar fr">
 				
-					 <div class="card">
-				        <ul class="extended-nav">
-				          <a><li class="top" style="background-color: #565e69;">EXTENDED STAY ROOM OPTIONS</li></a>
-				          <a href="https://murrayhillsuites.reztrip.com/search?selected_room=STU"><li>Studio</li></a>
-				          <a href="https://murrayhillsuites.reztrip.com/search?selected_room=JRS"><li>Junior Suite</li></a>
-				          <a href="https://murrayhillsuites.reztrip.com/search?selected_room=OBA"><li>One Bedroom</li></a>
-				          <a href="https://murrayhillsuites.reztrip.com/search?selected_room=Exec"><li>Executive One Bedroom</li></a>
-				          <a href="https://murrayhillsuites.reztrip.com/search?selected_room=TWOB"><li class="bottom">Executive Two Bedroom</li></a>
-				        </ul>
-			      </div>
+				<div class="card">
 
-		
+					<?php if ( !function_exists('dynamic_sidebar')
+						|| !dynamic_sidebar('Sidebar 2') ) : ?>
+					<?php endif; ?> 
+
 				</div>
+				
+			</div>
 			
 			<div class="clear"></div>
 

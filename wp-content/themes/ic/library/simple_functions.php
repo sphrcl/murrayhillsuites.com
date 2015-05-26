@@ -20,6 +20,22 @@ register_sidebar(array('name'=>'Sidebar',
 ));
 
 if ( function_exists('register_sidebar') )
+register_sidebar(array('name'=>'Sidebar 2',
+'before_widget' => '<div class="sidewidgets">',
+'after_widget' => '<div class="clear"></div></div>',
+'before_title' => '<h4>',
+'after_title' => '</h4>',
+));
+
+if ( function_exists('register_sidebar') )
+register_sidebar(array('name'=>'Sidebar 3',
+'before_widget' => '<div class="sidewidgets">',
+'after_widget' => '<div class="clear"></div></div>',
+'before_title' => '<h4>',
+'after_title' => '</h4>',
+));
+
+if ( function_exists('register_sidebar') )
 register_sidebar(array('name'=>'Footer Column 1',
 'before_widget' => '',
 'after_widget' => '',

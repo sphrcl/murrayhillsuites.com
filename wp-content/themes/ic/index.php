@@ -34,27 +34,15 @@
 
 			<div class="sidebar fr">
 				
-					 <div class="card">
-				        <ul class="extended-nav">
-				          <a><li class="top" style="background-color: #565e69;">HOTEL FEATURES</li></a>
-				          <a><li>30 day minimum stay</li></a>
-				          <a><li>Utilities, cable, local calls included</li></a>
-				          <a><li>On site fitness center</li></a>
-				          <a><li>Business center</li></a>
-				          <a><li>Complimentary 7 day maid service</li></a>
-				          <a><li>Complimentary Wi-Fi</li></a>
-				          <a><li>Doorman</li></a>
-				          <a><li>Concierge services</li></a>
-				          <a><li>Laundry room</li></a>
-				          <a><li>Dishwasher </li></a>
-				          <a><li>Complimentary coffee and tea</li></a>
-				          <a><li>Complimentary morning paper</li></a>
-				          <a><li class="bottom">Wake up service</li></a>				          				          
-				        </ul>
-			      </div>
+				<div class="card">
 
-		
+					<?php if ( !function_exists('dynamic_sidebar')
+						|| !dynamic_sidebar('Sidebar') ) : ?>
+					<?php endif; ?> 
+
 				</div>
+			      	
+			</div>
 			
 			<div class="clear"></div>
 

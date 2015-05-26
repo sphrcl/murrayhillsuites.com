@@ -215,29 +215,15 @@
 
 			<div class="sidebar fr">
 				
-					 <div class="card">
-				        <ul class="extended-nav">
-				          <a><li class="top" style="background-color: #565e69;">LOCAL AREA SERVICES</li></a>
-				          <a><li>Discount parking for our guests</li></a>
-				          <a><li>Avis, Hertz car rental</li></a>
-				          <a><li>Dry cleaners, laundry services</li></a>
-				          <a><li>Walgreens, CVS, Duane Reade</li></a>
-				          <a><li>D’agostino’s supermarket</li></a>
-				          <a><li>Currency exchange</li></a>
-				          <a><li>All major banks</li></a>
-				          <a><li>Bicycle rentals</li></a>
-				          <a><li>FedEx copying and printing services</li></a>
-				          <a><li>Fine restaurants & bars</li></a>
-				          <a><li>Liquor store</li></a>
-				          <a><li>Shoe shine</li></a>
-				          <a><li>Staples</li></a>
-				          <a><li>Starbucks</li></a>			          
-				          <a><li class="bottom">Dunkin Donuts</li></a>
-				        </ul>
-			      </div>
+				<div class="card">
 
-		
+					<?php if ( !function_exists('dynamic_sidebar')
+						|| !dynamic_sidebar('Sidebar 3') ) : ?>
+					<?php endif; ?> 
+
 				</div>
+
+			</div>
 			
 			<div class="clear"></div>
 
